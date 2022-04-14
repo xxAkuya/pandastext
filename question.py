@@ -8,14 +8,13 @@
 画出散点图；
 
 """
-
-from getdata import *
+import pandas as pd
 
 total = 143
 start, end = 5, 148
 
 
-def count_num(acc, ave, done):
+def count_num(acc, ave, done, df):
     """
     :param acc: 达成度
     :param ave: 平均值
@@ -29,7 +28,7 @@ def count_num(acc, ave, done):
     return done_ave, un_done
 
 
-def all_count_num(*args, done):
+def all_count_num(*args, done, df):
     """
 
     :param args: acc_li,ave_li

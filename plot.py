@@ -2,6 +2,7 @@
 画出散点图
 """
 import matplotlib.pyplot as plt
+
 from getdata import *
 
 #       ----画图-----
