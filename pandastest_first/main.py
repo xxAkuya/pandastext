@@ -1,13 +1,13 @@
 """
 主程序
 """
-from getdata import get_data
+from pandastest_first.getdata import get_data
 from question import *
-
 
 if __name__ == '__main__':
 
-    df = get_data()
+    df, ach_judge = get_data()
+    # print(df)
     acc_li = ['Unnamed: 4', 'Unnamed: 9', 'Unnamed: 14', 'Unnamed: 21']
     ave_li = ['Unnamed: 5', 'Unnamed: 10', 'Unnamed: 15', 'Unnamed: 22']
 

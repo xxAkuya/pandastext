@@ -3,8 +3,6 @@
 """
 import matplotlib.pyplot as plt
 
-from getdata import *
-
 #       ----画图-----
 seq_x = [i for i in range(143)]  # x轴seq
 
